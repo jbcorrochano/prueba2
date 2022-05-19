@@ -32,8 +32,8 @@ public class Principal {
             verPasajeros(conexi);
             System.out.println();
             mostrarPasajerosVuelo(conexi,"IB-SP-4567");
-            //insertarVuelo(conexi, "AVD-234-IB", "27/03/99-15:30", "MÁLAGA",
-              //      "OSLO", 120, 30, 150, 50);
+            insertarVuelo(conexi, "AVD-234-IB", "27/03/99-15:30", "MÁLAGA",
+                    "OSLO", 120, 30, 150, 50);
             System.out.println();
             //Borrar_Vuelo_BaseDatos(conexi, "AVD-234-IB");
             System.out.println();
